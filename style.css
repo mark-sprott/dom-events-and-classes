@@ -66,7 +66,7 @@ div.green:hover {
 /* Sometimes display: none would be appropriate here. However, because we want the dots
  * to stay in position and take up space, we turn off colour and border instead
  */
-div.invisible, div.invisible:hover {
-  background-color: white;
-  border: none;
-}
+ div.invisible, div.invisible:hover {
+   background-color: white;
+   border: none;
+ }

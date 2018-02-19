@@ -17,7 +17,7 @@ function bindEventListeners (dots) {
  }
 }
 
-function makeGreen (evt) {
+function makeGreen (e) {
  evt.preventDefault()
  evt.target.classList.toggle('green')
  updateCounts()
@@ -25,7 +25,7 @@ function makeGreen (evt) {
 
 
 // CREATE FUNCTION makeBlue HERE
-function makeBlue(evt){
+function makeBlue(e){
   e.target.classList.toggle('blue')
   updateCounts()
 }
