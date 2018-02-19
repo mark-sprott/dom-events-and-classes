@@ -17,7 +17,7 @@ function bindEventListeners (dots) {
  }
 }
 
-function makeGreen (e) {
+function makeGreen (evt) {
  evt.preventDefault()
  evt.target.classList.toggle('green')
  updateCounts()
